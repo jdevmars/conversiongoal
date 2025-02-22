@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class GoalController {
 
-	public final String apiKey = "1l52wORZAYlpRzWxll8D";
+	public final String apiKey = ":-]";
 	public int statusCode;
 	public String responseBody;
 	public Model model;
