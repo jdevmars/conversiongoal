@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Conversion Goal API</title>
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	    
+		const params = new URLSearchParams(window.location.search);
+	    const guid = params.get('guid'); 
+	    
+	    if (guid) {
+	      const links = document.querySelectorAll('.convertLink');
+	      
+	      links.forEach(link => {
+	        let href = link.getAttribute('href');
+	        const separator = href.includes('?') ? '&' : '?';
+	        link.setAttribute('href', href + separator + 'guid=' + encodeURIComponent(guid));
+	      });
+	    
+	    }
+	  
+	});
+</script>
+</head>
+<body>
+	<h3>Let's convert with API</h3>
+	<ul>
+		<li>Let's <a class="convertLink" href="/convert3000">convert 3000</a></li>
+		<li>Let's <a class="convertLink" href="/convert4000">convert 4000</a></li>
+		<li>Let's <a class="convertLink" href="/convert5000">convert 5000</a></li>
+	</ul>
+</body>
+</html>

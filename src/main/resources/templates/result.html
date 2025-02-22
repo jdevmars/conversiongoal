@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Your conversion</title>
+</head>
+<body>
+<h1>ExpertSender Goal Conversion</h1>
+
+<h3>You converted <span th:text="${value}" style="color:red">N/A</span>!</h3>
+
+<p>Status Code: <span th:text="${statusCode}">N/A</span></p>
+<p>Response Body: <span th:text="${responseBody}">N/A</span></p>
+<p>Message GUID: <span th:text="${guid}">N/A</span></p>
+<p>Error: <span th:text="${error}">N/A</span></p>
+</body>
+</html>
