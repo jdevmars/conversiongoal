@@ -8,8 +8,8 @@ In the end, ExpertSender users can create segments of people who converted accor
 
 - have achieved a specific goal
 - have achieved a specific goal in a particular message
-- have achieved a specific goal in a parcitular messages with value inferior or superior to x
-- have achieved a specific goal in a parcitular messages with value inferior or superior to x over the last y days
+- have achieved a specific goal in a particular messages with value inferior or superior to x
+- have achieved a specific goal in a particular messages with value inferior or superior to x over the last y days
 - etc.
 
 It's something interesting, but on a daily basis, nearly no one makes use of conversion goals in ExpertSender.
